@@ -1,35 +1,91 @@
-*{padding: 0;
-margin: 0;}
-.main{background-image: url(./image/wallpaperflare.com_wallpaper.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 70vh;
-    width: 950px;
-    margin: 0 auto;
-border: 1px solid black;
-border-radius: 8px;}
-li{display: inline-block;
-    margin-left: 3%;
+*{margin: 0;
+padding: 0;}
+/* main-container */
+.main-container{ height: 100vh;
+    width: 100%;
+    background-image:
+     url(./image/wallpaperflare.com_wallpaper.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
 }
-#logo{margin-right: 60%;
-color: white;}
-.login{background-color: antiquewhite;}
-ul{text-align: center; 
-margin-left: 10%;}
-.child{margin-left:50%; 
-margin-right: 20%;
-position: relative;
-right: 10%;
-top: 18%;
-border: 1PX solid black;
-border-radius: 7PX;
-height: 250px;
-width:220PX;
-background-color:#176672;}
-.para1{margin-left: 30%;
-    margin-top: 20px;
-color: antiquewhite;}
-.button{margin-left: 30%;}
-form{margin-left: 7%;} 
-text-decoration: solid;}
+/* navbar-section */
 
+ul{height: 10vh;
+    width: 100%;
+    text-align: right;
+}
+li{display: inline-block;
+padding: 15px;
+margin: 10px 10px;
+text-transform: capitalize;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: white;
+}
+li :hover{color: #162938;
+background-color: white;
+border-radius: 5px;
+cursor: pointer;}
+.login{color: black;
+    background-color: beige;}
+
+h2{margin: 20px 20px;
+    text-transform: capitalize;
+    font-size: 25px;
+    color: white;
+position: absolute;}
+
+/* form-section */
+.form-section {border: 5px solid black;
+border-radius: 10px;
+background-color: #162938;
+opacity: 0.8;
+margin: 0px auto;
+height:45vh ;
+width: 23%;
+padding-left: 13px;
+margin-top: 10%;}
+h1{
+text-transform: capitalize;
+font-family: serif;
+padding-left: 55px;
+color: aliceblue;
+}
+
+input{text-transform: capitalize;
+font-weight: bold;
+font-size: 18px;
+background-color: transparent;
+padding-top: 20px;
+outline: none;
+border: none;
+border-bottom: 3px solid black;
+color: aliceblue;
+padding-left: 10px;}
+.checkbox{font-family: sans-serif;
+font-size: 20px ;
+padding: 15px 0px;
+color: aliceblue;}
+
+button{
+text-transform: capitalize;
+font-family: sans-serif;
+color: antiquewhite;
+font-size: 15px;
+background-color: #162938;
+border-radius: 5px;
+padding: 5px;
+margin-left: 110px;}
+h3{padding-top: 10px;
+font-family: sans-serif;
+text-transform: capitalize;
+font-size: 20px;
+padding-left: 15px;
+color: antiquewhite;}
+
+/* icon-section  */
+img{width: 30px;
+height: 20px;
+padding-right: 20px;
+}
