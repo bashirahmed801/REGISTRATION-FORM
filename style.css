@@ -9,7 +9,30 @@ background-position: center;
 background-size: cover;
 background-repeat: no-repeat;
 }
+<<<<<<< HEAD
 /* navbar-section */
+=======
+#logo{margin-right: 60%;
+color: white;}
+.login{background-color: antiquewhite;}
+ul{text-align: center; 
+margin-left: 10%;}
+.child{margin-left:50%; 
+margin-right: 20%;
+position: relative;
+right: 10%;
+top: 18%;
+border: 1PX solid black;
+border-radius: 7PX;
+height: 250px;
+width:220PX;
+background-color:#176672;}
+.para1{margin-left: 30%;
+    margin-top: 20px;
+color: antiquewhite;}
+.button{margin-left: 30%;}
+form{margin-left: 7%;} 
+>>>>>>> fa4fa6054a55943ba7a82a2a7eb6f456db25e168
 
 ul{height: 10vh;
     width: 100%;
